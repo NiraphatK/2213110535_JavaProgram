@@ -3,7 +3,7 @@ public class Lab203 {
 
 	public static void main(String[] args) {
 		Scanner scr = new Scanner(System.in);
-		System.out.println("Input two  integer(a b): ");
+		System.out.println("Input two integer(a b): ");
 		int n1 = scr.nextInt();
 		int n2 = scr.nextInt();
 		int total = n1+n2;
