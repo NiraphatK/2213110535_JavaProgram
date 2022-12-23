@@ -25,15 +25,15 @@ public class CheckStockProduct {
 		System.out.println("List of product in 'LOW' status.");
 		System.out.println("--------------------------------------------------");
 		for (Product pd : productList) {
-			if(pd.getUnit()<5) {
-				System.out.println(">> " + pd.getId() + " has " + pd.getUnit() + " units");
+			if(pd.check(pd.getUnit()).equalsIgnoreCase("low")) {
+				System.out.println(">> " + pd.getId() + " has " +pd.getUnit() + " units");
 			}
 		}
 		System.out.println("--------------------------------------------------");
 		System.out.println("List of product in 'NORMAL' status.");
 		System.out.println("--------------------------------------------------");
 		for (Product pd : productList) {
-			if(pd.getUnit()>=5&&pd.getUnit()<=50) {
+			if(pd.check(pd.getUnit()).equalsIgnoreCase("normal")) {
 				System.out.println(">> " + pd.getId() + " has " + pd.getUnit() + " units");
 			}
 		}
@@ -41,7 +41,7 @@ public class CheckStockProduct {
 		System.out.println("List of product in 'HIGH' status.");
 		System.out.println("--------------------------------------------------");
 		for (Product pd : productList) {
-			if(pd.getUnit()>=50) {
+			if(pd.check(pd.getUnit()).equalsIgnoreCase("high")) {
 				System.out.println(">> " + pd.getId() + " has " + pd.getUnit() + " units");
 			}
 		}
