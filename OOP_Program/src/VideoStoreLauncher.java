@@ -23,4 +23,4 @@ public class VideoStoreLauncher {
 		}
 	}// end getStatus
 
-}// end class
+}// end class 

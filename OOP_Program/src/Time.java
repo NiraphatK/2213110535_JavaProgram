@@ -63,4 +63,4 @@ public class Time {
 		} // end if sec
 		return this;
 	}
-}
+} 

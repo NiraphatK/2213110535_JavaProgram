@@ -12,6 +12,6 @@ public class AuthorDemo1 {
 		char gender = scan.next().toUpperCase().charAt(0);
 		Author a = new Author(name,email,gender);
 		System.out.println(a);
-	}
+	} 
 
 }

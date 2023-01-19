@@ -30,4 +30,4 @@ public class WeeklyWeatherData {
 	public double getMaxRain() {
 		return maxRain;
 	}
-}
+} 

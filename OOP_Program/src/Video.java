@@ -35,4 +35,4 @@ public class Video {
 	public boolean isCheckOut() {
 		return checkedOut;
 	}
-}
+} 

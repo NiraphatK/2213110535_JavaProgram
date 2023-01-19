@@ -36,4 +36,4 @@ public class Book {
 	public String toString() {
 		return String.format("\nTitle: %s published for %d year (%.2f" + " baht).", title, getTotalYear(), price);
 	}
-}
+} 

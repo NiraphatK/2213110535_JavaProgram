@@ -29,4 +29,4 @@ public class TestTime {
 		System.out.println(t1.nextSec().nextSec().nextSec());
 	}
 
-}
+} 

@@ -40,4 +40,4 @@ public class Author {
 	public String toString() {
 		return "\nAuthor name: "+name+" ("+email+";"+getGenderName()+")";
 	}
-}
+} 
