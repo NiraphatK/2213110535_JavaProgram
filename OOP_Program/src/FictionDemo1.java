@@ -12,6 +12,7 @@ public class FictionDemo1 {
 		
 		System.out.print("Input Name : ");
 		String name = scan.nextLine();
+		scan.nextLine();
 		book.setAuthorName(name);
 		System.out.print("Input Email : ");
 		String email = scan.nextLine();
